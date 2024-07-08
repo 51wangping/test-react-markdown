@@ -1,9 +1,13 @@
 import logo from './logo.svg';
+import Markdown from 'react-markdown'
 import './App.css';
+
+const markdown = '# Hi, *Pluto*!'
 
 function App() {
   return (
     <div className="App">
+      <Markdown>{markdown}</Markdown>  
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
